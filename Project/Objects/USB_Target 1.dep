@@ -1,0 +1,91 @@
+Dependencies for Project 'USB', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Libraries\start\startup_stm32f10x_hd.s)(0x5EEA1DF6)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)()
+F (..\Libraries\include\misc.h)(0x645FA340)()
+F (..\Libraries\include\stm32f10x.h)(0x645F9896)()
+F (..\Libraries\include\stm32f10x_conf.h)(0x645FA299)()
+F (..\Libraries\include\stm32f10x_dma.h)(0x645FA24C)()
+F (..\Libraries\include\stm32f10x_gpio.h)(0x645F9A7B)()
+F (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)()
+F (..\Libraries\include\stm32f10x_sdio.h)(0x645FA2BA)()
+F (..\Libraries\include\stm32f10x_spi.h)(0x645FA2FA)()
+F (..\Libraries\include\stm32f10x_usart.h)(0x645F9383)()
+F (..\Libraries\source\core_cm3.c)(0x5EEA1DF6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+F (..\Libraries\source\stm32f10x_gpio.c)(0x645FA1ED)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\Libraries\include\stm32f10x_gpio.h)(0x645F9A7B)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)
+I (..\Libraries\include\stm32f10x_conf.h)(0x645FA299)
+I (..\Libraries\include\stm32f10x_dma.h)(0x645FA24C)
+I (..\Libraries\include\stm32f10x_sdio.h)(0x645FA2BA)
+I (..\Libraries\include\stm32f10x_spi.h)(0x645FA2FA)
+I (..\Libraries\include\stm32f10x_usart.h)(0x645F9383)
+I (..\Libraries\include\misc.h)(0x645FA340)
+F (..\Libraries\source\stm32f10x_rcc.c)(0x645FA3AF)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\include\stm32f10x_conf.h)(0x645FA299)
+I (..\Libraries\include\stm32f10x_dma.h)(0x645FA24C)
+I (..\Libraries\include\stm32f10x_gpio.h)(0x645F9A7B)
+I (..\Libraries\include\stm32f10x_sdio.h)(0x645FA2BA)
+I (..\Libraries\include\stm32f10x_spi.h)(0x645FA2FA)
+I (..\Libraries\include\stm32f10x_usart.h)(0x645F9383)
+I (..\Libraries\include\misc.h)(0x645FA340)
+F (..\Libraries\source\stm32f10x_usart.c)(0x645FA3D0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\Libraries\include\stm32f10x_usart.h)(0x645F9383)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)
+I (..\Libraries\include\stm32f10x_conf.h)(0x645FA299)
+I (..\Libraries\include\stm32f10x_dma.h)(0x645FA24C)
+I (..\Libraries\include\stm32f10x_gpio.h)(0x645F9A7B)
+I (..\Libraries\include\stm32f10x_sdio.h)(0x645FA2BA)
+I (..\Libraries\include\stm32f10x_spi.h)(0x645FA2FA)
+I (..\Libraries\include\misc.h)(0x645FA340)
+F (..\Libraries\source\system_stm32f10x.c)(0x645F9FDF)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\User\usart\bsp_usart.c)(0x645F9F0D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\bsp_usart.o --omf_browse .\objects\bsp_usart.crf --depend .\objects\bsp_usart.d)
+I (..\User\usart\bsp_usart.h)(0x645F96A0)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdio.h)(0x5E8E3CC2)
+I (..\Libraries\include\stm32f10x_gpio.h)(0x645F9A7B)
+I (..\Libraries\include\stm32f10x_usart.h)(0x645F9383)
+I (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)
+F (..\User\usart\bsp_usart.h)(0x645F96A0)()
+F (..\User\main.c)(0x6460D022)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\main.h)(0x6460CF7E)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\User\usart\bsp_usart.h)(0x645F96A0)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdio.h)(0x5E8E3CC2)
+F (..\User\main.h)(0x6460CF7E)()
+F (..\User\usb\core\usb.c)(0x646100CD)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\usb.o --omf_browse .\objects\usb.crf --depend .\objects\usb.d)
+I (..\User\main.h)(0x6460CF7E)
+I (..\User\usb\core\usb.h)(0x6460D39E)
+I (..\User\usart\bsp_usart.h)(0x645F96A0)
+I (..\Libraries\include\stm32f10x.h)(0x645F9896)
+I (..\Libraries\include\core_cm3.h)(0x5EEA1DF6)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdint.h)(0x5E8E3CC2)
+I (D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\keil5\keil install\ARM\ARMCC2\include\stdio.h)(0x5E8E3CC2)
+I (..\Libraries\include\stm32f10x_rcc.h)(0x5EEA1DF6)
+F (..\User\usb\core\usb.h)(0x6460D39E)()
+F (..\User\usb\dwc2\core.c)(0x6460F6DF)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\include -I ..\User\usart -I ..\User -I ..\User\usb\core -I ..\User\usb\dwc2-I.\RTE\_Target_1-I"D:\keil5\keil install\ARM\ARMCC3\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\keil5\keil install\ARM\CMSIS\Include"-D__UVISION_VERSION="526" -DSTM32F10X_HD-o .\objects\core.o --omf_browse .\objects\core.crf --depend .\objects\core.d)
+F (..\User\usb\dwc2\core.h)(0x6460F72D)()
